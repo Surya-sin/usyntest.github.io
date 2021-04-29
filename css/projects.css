@@ -1,0 +1,44 @@
+.top{
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 25px;
+}
+
+h1{
+    font-size:4rem;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.top > img {
+    height : 100px;
+    padding-left: 10px;
+}
+
+.grid-container{
+    display:grid;
+    justify-content: space-around;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 545px 545px 545px;
+    grid-row-gap: 50px;
+    padding-bottom: 40px;
+}
+
+
+.grid-item{
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    height: 545px;
+    width: 320px;
+}
+
+
+.card-img{
+    border-radius: 25%;
+    height: 300px;
+    width: 300px;
+}
+

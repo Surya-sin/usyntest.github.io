@@ -1,0 +1,22 @@
+.application{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.heading{
+    font-size: xx-large;
+    transition:cubic-bezier(0.785, 0.135, 0.15, 0.86)(0.23, 1, 0.320, 1);
+}
+
+.heading:hover{
+    color: white;
+}
+
+
+
+.application-form{
+    margin-top: 5vh;
+}
